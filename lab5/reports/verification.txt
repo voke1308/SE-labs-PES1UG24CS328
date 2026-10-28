@@ -1,0 +1,15 @@
+test_database_errors_are_visible (test_bike_share_stations.StationTests.test_database_errors_are_visible) ... ok
+test_default_logs_are_independent (test_bike_share_stations.StationTests.test_default_logs_are_independent) ... ok
+test_explicit_log_is_preserved (test_bike_share_stations.StationTests.test_explicit_log_is_preserved) ... ok
+test_full_stations_and_reset (test_bike_share_stations.StationTests.test_full_stations_and_reset) ... ok
+test_import_does_not_run_demo (test_bike_share_stations.StationTests.test_import_does_not_run_demo) ... ok
+test_missing_station (test_bike_share_stations.StationTests.test_missing_station) ... ok
+test_null_bike_count (test_bike_share_stations.StationTests.test_null_bike_count) ... ok
+test_parameterized_station_name (test_bike_share_stations.StationTests.test_parameterized_station_name) ... ok
+test_pin_boundaries_use_secrets (test_bike_share_stations.StationTests.test_pin_boundaries_use_secrets) ... ok
+test_rental_decrements_and_stops_at_zero (test_bike_share_stations.StationTests.test_rental_decrements_and_stops_at_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.186s
+
+OK

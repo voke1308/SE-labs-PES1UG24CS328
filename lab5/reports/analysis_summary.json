@@ -1,0 +1,14 @@
+{
+  "before": {
+    "pylint": 28,
+    "bandit": 1,
+    "flake8": 1,
+    "demo": 0
+  },
+  "after": {
+    "pylint": 0,
+    "bandit": 0,
+    "flake8": 0,
+    "demo": 0
+  }
+}
