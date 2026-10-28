@@ -38,8 +38,10 @@ def unlock_pin():
 
 def full_stations():
     """Return names of stations whose bike count equals their capacity."""
-    stations = CONNECTION.execute("SELECT name FROM stations WHERE bikes = capacity").fetchall()
-    return [station[0] for station in stations]   
+    stations = CONNECTION.execute(
+        "SELECT name FROM stations WHERE bikes = capacity"
+    ).fetchall()
+    return [station[0] for station in stations]
 
 
 def reset_station(station_id):
