@@ -14,7 +14,7 @@ totals with GST and bulk discounts, cart discounts, and shipping charges.
 
 The starter tests were run with line coverage and branch coverage first.
 Separate test suites were then added, run and committed with their terminal
-screenshots. The completed work was uploaded to this repository under `Lab 6`.
+screenshots. The completed work was uploaded to this repository under `lab6`.
 The application and starter test file are unchanged from the assigned repository.
 No changes were uploaded to the assigned SETAPESU26 repository.
 
@@ -65,7 +65,7 @@ specified in the handout. Baseline results are saved as text and JSON.
 
 ## Run locally
 
-With Python 3 installed, open a terminal in this repository's `Lab 6` directory:
+With Python 3 installed, open a terminal in this repository's `lab6` directory:
 
 ```sh
 python -m pip install -r requirements.txt

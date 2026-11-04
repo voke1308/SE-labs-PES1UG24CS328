@@ -62,7 +62,7 @@ short-circuit condition has been tested, or that the program has no bugs.
 
 ## Run the tests
 
-Run these commands from the `Lab 6` directory with Python 3 installed:
+Run these commands from the `lab6` directory with Python 3 installed:
 
 ```text
 python -m pip install -r requirements.txt
@@ -81,4 +81,4 @@ rules for GST and discounts.
 `pytest.ini` includes the required capitalized filenames in automatic test
 discovery. A full run executes 65 cases: 2 starter, 11 code and 52 branch cases.
 The two required commits separate the code suite and its screenshot from the
-branch suite and its screenshot. All work is contained in `Lab 6`.
+branch suite and its screenshot. All work is contained in `lab6`.
