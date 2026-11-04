@@ -1,0 +1,13 @@
+Prajin Ravi Shankar | PES1UG24CS328 | Section 5-F
+Lab 6 - code_coverage
+> python -m coverage run --source=shopping_cart -m pytest -q CodeCoverageTest_PES1UG24CS328_shopping_cart.py
+...........                                                              [100%]
+11 passed in 0.11s
+> python -m coverage report -m
+Name               Stmts   Miss  Cover   Missing
+------------------------------------------------
+shopping_cart.py      32      0   100%
+------------------------------------------------
+TOTAL                 32      0   100%
+> python -m coverage json -o evidence/code_coverage.json
+Wrote JSON report to evidence/code_coverage.json
