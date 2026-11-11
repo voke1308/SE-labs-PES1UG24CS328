@@ -1,9 +1,6 @@
 # Lab 5: Static Code Analysis
 
-Student identifier: PES1UG24CS328 (from the destination repository name).
-
-This folder is prepared for `lab5/` in:
-https://github.com/voke1308/SE-labs-PES1UG24CS328
+Student identifier: PES1UG24CS328.
 
 Assignment source:
 https://github.com/SETAPESU26/L5_23_bike_share_stations
@@ -12,14 +9,15 @@ https://github.com/SETAPESU26/L5_23_bike_share_stations
 
 - `bike_share_stations.py`: corrected program.
 - `issues.md`: findings, original line references, and fixes.
-- `reflection.md`: four draft reflections (see the question-source note).
 - `reports/before/` and `reports/after/`: genuine Pylint, Bandit, Flake8, and demonstration outputs.
 - `reports/verification.txt`: regression-test results.
 - `original/bike_share_stations.py`: unchanged starter for comparison.
 - `ASSIGNMENT_README.md`: upstream assignment instructions.
 - `test_bike_share_stations.py`: ten regression checks.
 - `requirements-dev.txt` and `analyze.py`: tools and repeatable report generation.
-- `stages/`: snapshots to support the required three commits.
+- `stages/`: snapshots of the three analysis stages.
+
+The reflection answers were removed after instructor clarification, as recorded in [commit `511b43c`](https://github.com/voke1308/SE-labs-PES1UG24CS328/commit/511b43c150bdc10891311de3d4cd724630218930).
 
 ## Results
 
@@ -56,12 +54,10 @@ Storage remains in memory, matching the assignment. This is a lab program; it do
 
 ## Three-commit requirement
 
-No commits or pushes have been made. To support three real tool-specific commits later, the snapshots represent this progression:
+The three tool-specific fixes are in the repository history:
 
-1. `stages/01_bandit.py`: parameterized SQL, secure PINs, and removal of swallowed exceptions.
-2. `stages/02_pylint.py`: documentation, snake_case names, independent logs, consistent rental returns, unused-variable removal, safe missing-station handling, and guarded demo execution.
-3. `stages/03_flake8.py`: final line wrapping and whitespace cleanup; identical to the delivered corrected file.
+1. [Bandit fixes](https://github.com/voke1308/SE-labs-PES1UG24CS328/commit/47f2cbb60cecf6355b0822e8dd98aa98b8eeaa8e). Snapshot: `stages/01_bandit.py`.
+2. [Pylint fixes](https://github.com/voke1308/SE-labs-PES1UG24CS328/commit/165c94be7a0d948d71ecf619186c0afbf4f7b100). Snapshot: `stages/02_pylint.py`.
+3. [Flake8 fixes](https://github.com/voke1308/SE-labs-PES1UG24CS328/commit/48b7e3f1c485739e8f3718034ddecb311b776280). Snapshot: `stages/03_flake8.py`.
 
 These files are historical snapshots, not additional production modules. Analyze the specific corrected file, not the complete archive recursively: `original/` and early `stages/` intentionally retain baseline findings.
-
-The archive adds only `lab5/` and contains no `.git` directory or earlier labs. Extract it beside your existing lab folders after cloning your destination repository. Exact commit/push commands will be supplied after you provide the saved ZIP path. Review the reflection drafts before submission, especially if your instructor provides the missing questions separately.
